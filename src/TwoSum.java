@@ -1,10 +1,18 @@
 
 public class TwoSum {
     public static void main(String[] args) {
+        int[] nums = new int[]{1, 2, 3, 4, 5, 6};
+        int target = 8;
+        
+        int[] res = twoSum(nums, target);
+        
+        for (int i = 0; i < res.length; i++) {
+            System.out.print(res[i] + " ");
+        }
         
     }
     
-    public static int[] towSum(int[] nums, int target) {
+    public static int[] twoSum(int[] nums, int target) {
         int[] result = new int[2];
         int len = nums.length;
         
