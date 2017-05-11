@@ -10,3 +10,5 @@ LeetCode solutions by Java
 002. [Two Sum II](https://github.com/Lukathis/LeetCode/blob/master/src/TwoSumII.java)
 
 015. Three Sum
+
+022. [Generate Parenthesis](https://github.com/Lukathis/LeetCode/blob/master/src/GenerateParenthesis.java)
