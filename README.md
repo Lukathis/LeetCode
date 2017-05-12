@@ -16,3 +16,5 @@ LeetCode solutions by Java
 081. [081. Search in Rotated Sorted Array II](https://github.com/Lukathis/LeetCode/blob/master/src/SearchInRotatedSortedArrayII.java)
 
 017. [017. Letter Combinations of a Phone Number](https://github.com/Lukathis/LeetCode/blob/master/src/LetterCombinationOfAPhoneNumber.java)
+
+039. [039. Combination Sum](https://github.com/Lukathis/LeetCode/blob/master/src/CombinationSum.java)
