@@ -14,3 +14,5 @@ LeetCode solutions by Java
 022. [022. Generate Parenthesis](https://github.com/Lukathis/LeetCode/blob/master/src/GenerateParenthesis.java)
 
 081. [081. Search in Rotated Sorted Array II](https://github.com/Lukathis/LeetCode/blob/master/src/SearchInRotatedSortedArrayII.java)
+
+017. [017. Letter Combinations of a Phone Number](https://github.com/Lukathis/LeetCode/blob/master/src/LetterCombinationOfAPhoneNumber.java)

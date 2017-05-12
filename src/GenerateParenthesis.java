@@ -16,17 +16,17 @@ public class GenerateParenthesis {
          * 到底，回溯，自然地就拿掉了最后添加的左括号，
          * 开始添加右括号，从而完成整个状态空间的搜索。**/
         List<String> res = new ArrayList<>();
-        return(backTrace(n, 0, 0, "", res));
+        return(backtrack(n, 0, 0, "", res));
     }
     
-    public static List<String> backTrace(int n, int left, int right, String s, List<String> res) {
+    public static List<String> backtrack(int n, int left, int right, String s, List<String> res) {
         
         if (left < n) {
-            backTrace(n, left + 1, right, s + "(", res);
+            backtrack(n, left + 1, right, s + "(", res);
         } 
         
         if (right < left){
-            backTrace(n, left, right + 1, s + ")", res);
+            backtrack(n, left, right + 1, s + ")", res);
         } 
         
         if (s.length() == n * 2){
