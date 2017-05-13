@@ -18,3 +18,5 @@ LeetCode solutions by Java
 017. [017. Letter Combinations of a Phone Number](https://github.com/Lukathis/LeetCode/blob/master/src/LetterCombinationOfAPhoneNumber.java)
 
 039. [039. Combination Sum](https://github.com/Lukathis/LeetCode/blob/master/src/CombinationSum.java)
+
+040. [040. Combination Sum II](https://github.com/Lukathis/LeetCode/blob/master/src/CombinationSumII.java)
