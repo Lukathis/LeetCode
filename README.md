@@ -20,3 +20,5 @@ LeetCode solutions by Java
 039. [039. Combination Sum](https://github.com/Lukathis/LeetCode/blob/master/src/CombinationSum.java)
 
 040. [040. Combination Sum II](https://github.com/Lukathis/LeetCode/blob/master/src/CombinationSumII.java)
+
+051. [051. N-Queens](https://github.com/Lukathis/LeetCode/blob/master/src/NQueens.java)
