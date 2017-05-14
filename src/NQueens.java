@@ -1,6 +1,13 @@
 import java.util.ArrayList;
 import java.util.List;
 
+    /**思路：比较典型的八皇后问题，可以用回溯法来解。按行循环，关键是判断某一格是否可以放置皇后。那么显然的我们要进行如下判断：
+     * 用HashSet来保存每一行已经占用的列号，如果我们填入的位置之前已经有皇后放入这一列，肯定不行。
+     * 用另外一个HashSet来存放对角线信息。其实就是把格子投影到对角线上，落在右上到左下投影上同一个格子的计算方法是如果col + row相同，
+     * 类似的，落在左上到右下的对角线上同一个格子的计算方法是col - row相同。
+     * 第二次改进的时候直接用数组来解决，查询效率更高，故而表现也比HashSet更好。
+    因此我们只要保存三个HashSet或者三个Array来记录之前已经放置的信息即可。其他，就交给回溯来解决吧！**/
+
 public class NQueens {
     static boolean[] col;
     static boolean[] diag1;
