@@ -9,6 +9,8 @@ LeetCode solutions by Java
 
 002. [002. Two Sum II](https://github.com/Lukathis/LeetCode/blob/master/src/TwoSumII.java)
 
+015. [015. Three Sum](https://github.com/Lukathis/LeetCode/blob/master/src/ThreeSum.java)
+
 033. [033. Search in Rotated Sorted Array](https://github.com/Lukathis/LeetCode/blob/master/src/SearchInRotatedSortedArray.java)
 
 022. [022. Generate Parenthesis](https://github.com/Lukathis/LeetCode/blob/master/src/GenerateParenthesis.java)
