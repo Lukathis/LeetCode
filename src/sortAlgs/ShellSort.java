@@ -2,18 +2,27 @@ package sortAlgs;
 
 public class ShellSort {
     /**希尔排序基本思路：
-     * 就是从1开始，依次向后扫描，记为指针i，
-     * 那么i左边的元素必然已经排好顺序了，
-     * 将i处元素与左边所有元素依次相比，如果i处元素比较小则交换
+     * 希尔排序是对插入排序的改进。主要原因是如果用插入排序，每次元素必须从数组的一端慢慢移动到另一端。
+     * 希尔排序把每隔h个元素分为一组，h从较大的值递减，有助于把一些排在后面的较小元素快速前移。
+     * h的取值可以有很多选择，一般可以用3 * h + 1的序列，逐次递减。
      * **/
     
     /** ONLY MODIFY BELOW THIS LINE**/
     public static void sort(int[] a) {
         int n = a.length;
-        for (int i = 1; i < n; i++) {
-            for (int j = i; j > 0 && less(a[j], a[j - 1]); j--) {
-                exch(a, j, j - 1);
+        int h = 1;
+        
+        while (h < n / 3) {
+            h = 3 * h + 1;
+        }
+        
+        while (h > 0) {
+            for (int i = h; i < n; i++) {
+                for (int j = i; j >= h && less(a[j], a[j - h]); j = j - h) {
+                    exch(a, j, j - h);
+                }
             }
+            h = h / 3;
         }
     }
     /** ONLY MODIFY ABOVE THIS LINE**/
