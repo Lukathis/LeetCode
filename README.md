@@ -1,9 +1,8 @@
 # LeetCode
-LeetCode solutions by Java
 
-本项目从2017.5.10起每日更新，内容为LeetCode题。
+本项目从2017.5.10起每日更新，内容为LeetCode题及基本算法实现。
 
-目录：
+## Leetcode solutions
 
 001. [001. Two Sum](https://github.com/Lukathis/LeetCode/blob/master/src/TwoSum.java)
 
@@ -26,3 +25,17 @@ LeetCode solutions by Java
 040. [040. Combination Sum II](https://github.com/Lukathis/LeetCode/blob/master/src/CombinationSumII.java)
 
 051. [051. N-Queens](https://github.com/Lukathis/LeetCode/blob/master/src/NQueens.java)
+
+## 基本排序算法
+
+001. [Selection Sort](https://github.com/Lukathis/LeetCode/blob/master/src/sortAlgs/SelectionSort.java)
+
+002. [Insertion Sort](https://github.com/Lukathis/LeetCode/blob/master/src/sortAlgs/InsertionSort.java)
+
+001. [Shell Sort](https://github.com/Lukathis/LeetCode/blob/master/src/sortAlgs/SellSort.java)
+
+001. [Merge Sort](https://github.com/Lukathis/LeetCode/blob/master/src/sortAlgs/MergeSort.java)
+
+001. [Quick Sort](https://github.com/Lukathis/LeetCode/blob/master/src/sortAlgs/QuickSort.java)
+
+001. [Heap Sort](https://github.com/Lukathis/LeetCode/blob/master/src/sortAlgs/HeapSort.java)
