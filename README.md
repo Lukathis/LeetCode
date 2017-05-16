@@ -32,7 +32,7 @@
 
 002. [Insertion Sort](https://github.com/Lukathis/LeetCode/blob/master/src/sortAlgs/InsertionSort.java)
 
-001. [Shell Sort](https://github.com/Lukathis/LeetCode/blob/master/src/sortAlgs/SellSort.java)
+001. [Shell Sort](https://github.com/Lukathis/LeetCode/blob/master/src/sortAlgs/ShellSort.java)
 
 001. [Merge Sort](https://github.com/Lukathis/LeetCode/blob/master/src/sortAlgs/MergeSort.java)
 
