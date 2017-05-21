@@ -9,33 +9,8 @@ public class HeapSort {
     
     /** ONLY MODIFY BELOW THIS LINE**/
     public static void sort(int[] a) {
-        sort(a, 0, a.length - 1);
     }
     
-    public static void sort(int[] a, int lo, int hi) {
-        if (lo >= hi) return;
-        int k = partition(a, lo, hi);
-        sort(a, lo, k - 1);
-        sort(a, k + 1, hi);
-    }
-    
-    private static int partition(int[] a, int lo, int hi) {
-        int i = lo;
-        int j = hi + 1;
-        
-        while (true) {
-            while (less(a[++i], a[lo]))
-                if (i == hi) break;
-            
-            while (less(a[lo], a[--j]))
-                if (lo == j) break;
-            
-            if (j <= i) break;
-            exch(a, i, j);
-        }
-        exch(a, lo, j);
-        return j;
-    }
     /** ONLY MODIFY ABOVE THIS LINE**/
     
     private static boolean less(Comparable v, Comparable w) {
