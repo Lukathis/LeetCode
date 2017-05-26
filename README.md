@@ -20,6 +20,8 @@
 
 027. [027. Remove Element](https://github.com/Lukathis/LeetCode/blob/master/src/RemoveElement.java)
 
+283. [283. Move Zeros](https://github.com/Lukathis/LeetCode/blob/master/src/MoveZeros.java)
+
 080. [080. Remove Duplicates from Sorted Array II](https://github.com/Lukathis/LeetCode/blob/master/src/RemoveDuplicatesFromSortedArrayII.java)
 
 033. [033. Search in Rotated Sorted Array](https://github.com/Lukathis/LeetCode/blob/master/src/SearchInRotatedSortedArray.java)
