@@ -32,6 +32,8 @@
 
 051. [051. N-Queens](https://github.com/Lukathis/LeetCode/blob/master/src/NQueens.java)
 
+052. [052. N-Queens II](https://github.com/Lukathis/LeetCode/blob/master/src/NQueensII.java)
+
 073. [073. Set Matrix Zeroes](https://github.com/Lukathis/LeetCode/blob/master/src/SetMatrixZeroes.java)
 
 080. [080. Remove Duplicates from Sorted Array II](https://github.com/Lukathis/LeetCode/blob/master/src/RemoveDuplicatesFromSortedArrayII.java)
