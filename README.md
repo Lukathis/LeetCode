@@ -44,6 +44,8 @@
 
 283. [283. Move Zeros](https://github.com/Lukathis/LeetCode/blob/master/src/MoveZeros.java)
 
+350. [350. Intersection of two arrays II](https://github.com/Lukathis/LeetCode/blob/master/src/IntersectionOfTwoArrays.java)
+
 ## 基本排序算法
 
 001. [Selection Sort](https://github.com/Lukathis/LeetCode/blob/master/src/sortAlgs/SelectionSort.java)
