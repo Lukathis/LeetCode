@@ -40,6 +40,8 @@
 
 081. [081. Search in Rotated Sorted Array II](https://github.com/Lukathis/LeetCode/blob/master/src/SearchInRotatedSortedArrayII.java)
 
+088. [088. Merge Sorted Array](https://github.com/Lukathis/LeetCode/blob/master/src/MergeSortedArray.java)
+
 209. [209. Minimum Size Subarray Sum](https://github.com/Lukathis/LeetCode/blob/master/src/MinimumSizeSubarraySum.java)
 
 283. [283. Move Zeros](https://github.com/Lukathis/LeetCode/blob/master/src/MoveZeros.java)
