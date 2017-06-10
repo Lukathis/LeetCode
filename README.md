@@ -30,6 +30,8 @@
 
 040. [040. Combination Sum II](https://github.com/Lukathis/LeetCode/blob/master/src/CombinationSumII.java)
 
+042. [042. Trapping Rain Water](https://github.com/Lukathis/LeetCode/blob/master/src/TrappingRainWater.java)
+
 051. [051. N-Queens](https://github.com/Lukathis/LeetCode/blob/master/src/NQueens.java)
 
 052. [052. N-Queens II](https://github.com/Lukathis/LeetCode/blob/master/src/NQueensII.java)
@@ -46,9 +48,9 @@
 
 283. [283. Move Zeros](https://github.com/Lukathis/LeetCode/blob/master/src/MoveZeros.java)
 
-349. [349. Intersection of two arrays](https://github.com/Lukathis/LeetCode/blob/master/src/IntersectionOfTwoArrays.java)
+349. [349. Intersection of Two Arrays](https://github.com/Lukathis/LeetCode/blob/master/src/IntersectionOfTwoArrays.java)
 
-350. [350. Intersection of two arrays II](https://github.com/Lukathis/LeetCode/blob/master/src/IntersectionOfTwoArraysII.java)
+350. [350. Intersection of Two Arrays II](https://github.com/Lukathis/LeetCode/blob/master/src/IntersectionOfTwoArraysII.java)
 
 ## 基本排序算法
 
