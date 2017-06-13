@@ -56,6 +56,8 @@
 
 350. [350. Intersection of Two Arrays II](https://github.com/Lukathis/LeetCode/blob/master/src/IntersectionOfTwoArraysII.java)
 
+401. [401. Binary Watch](https://github.com/Lukathis/LeetCode/blob/master/src/BinaryWatch.java)
+
 ## 基本排序算法
 
 001. [Selection Sort](https://github.com/Lukathis/LeetCode/blob/master/src/sortAlgs/SelectionSort.java)
