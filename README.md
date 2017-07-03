@@ -26,6 +26,8 @@
 
 033. [033. Search in Rotated Sorted Array](https://github.com/Lukathis/LeetCode/blob/master/src/SearchInRotatedSortedArray.java)
 
+034. [034. Search for a Range](https://github.com/Lukathis/LeetCode/blob/master/src/SearchForARange.java)
+
 036. [036. Valid Sudoku](https://github.com/Lukathis/LeetCode/blob/master/src/ValidSudoku.java)
 
 039. [039. Combination Sum](https://github.com/Lukathis/LeetCode/blob/master/src/CombinationSum.java)
