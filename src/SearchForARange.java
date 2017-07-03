@@ -1,34 +1,29 @@
 
 public class SearchForARange {
     public static void main(String[] args) {
-        int[] nums = new int[]{1,2,4,5};
-        int target = 3;
-        System.out.println(searchRange(nums, target));
+        int[] nums = new int[]{5, 7, 7, 8, 8, 10};
+        int target = 8;
+        int[] res = searchRange(nums, target);
+        System.out.println(res[0]+ " " + res[1]);
     }
     
-    public static int searchRange(int[] nums, int target) {
-        int a = search(nums, 0, nums.length - 1, target);
-        return a;
+    public static int[] searchRange(int[] nums, int target) {
+        int a = firstGreaterThan(nums, 0, nums.length, target);
+        int b = firstGreaterThan(nums, 0, nums.length, target + 1);
+        int[] c = new int[]{a, b - 1};
+        if (nums[a] != target || nums[b] != target) return new int[]{-1, -1};
+        return c;
     }
     
-    public static int search(int[] nums, int left, int right, int target) {
-        int mid = (left + right) / 2;
-        if (left == mid) {
-            if (target <= nums[mid]) {
-                return mid;
+    public static int firstGreaterThan(int[] nums, int left, int right, int target) {
+        while (left < right) {
+            int mid = (left + right) / 2;
+            if (nums[mid] < target) {
+                left = mid + 1;
             } else {
-                return mid + 1;
+                right = mid;
             }
         }
-        
-        if (target != nums[mid]) {
-            if (target < nums[mid]) {
-                return search(nums, left, mid, target);
-            } else {
-                return search(nums, mid, right, target);
-            }
-        } else {
-            return mid;
-        }
+        return left;
     }
 }
