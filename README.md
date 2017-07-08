@@ -42,6 +42,8 @@
 
 073. [073. Set Matrix Zeroes](https://github.com/Lukathis/LeetCode/blob/master/src/SetMatrixZeroes.java)
 
+079. [079. Word Search](https://github.com/Lukathis/LeetCode/blob/master/src/WordSearch.java)
+
 080. [080. Remove Duplicates from Sorted Array II](https://github.com/Lukathis/LeetCode/blob/master/src/RemoveDuplicatesFromSortedArrayII.java)
 
 081. [081. Search in Rotated Sorted Array II](https://github.com/Lukathis/LeetCode/blob/master/src/SearchInRotatedSortedArrayII.java)
