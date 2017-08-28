@@ -1,0 +1,34 @@
+Good afternoon, I am Xu Chi from CFT and I am studying in Tongji University as a postgraduate student. 
+Now I am going to do some introduction on our Summer Intern Project – FinanceCLI.
+
+I will talk about the project from the background, the tool itself, technical design we use and the problem we solve.
+
+Background
+First of all, before we start this project, we have to use different tools from different platforms and handle plenty of data from different sources in our daily work. Different services have different methods, which is very inconvenient and surely takes quite a lot of time. So a ‘one-stop’ tool is badly needed to manage all these services.
+
+One-stop Shop Tool
+Therefore, we develop FinanceCLI to integrate different services into a single platform. Users no longer need to operate various webs, files or databases. FinCLI could help them to interact with management software like JIRA and ALM, fetch information no matter it is stored in file systems or databases. 
+To make it easier, we also design a uniform grammar to operate different services.
+
+Technical Design
+This slide shows our technical design. It is a modularized structure, which brings a lot of advantages. 
+Firstly, it will be scalable. For example, in our plugin part, which we have implemented several plugins now, corresponding to different services. But if someone need to do develop a new plugin. Because we have deal with the input from user and also provided fundamental support from plugin lib such as output and logging module. It will be quite easy.
+Furthermore, different users may have different requirements. So we provide a configuration module to record user’s personal settings.
+
+In this platform, I mainly in responsible for JIRA and ALM plugin. The output module in plugin lib. And web part, which is still in progress but will be done before the end of this project.
+
+JIRA&ALM Plugins
+And next I’ll mainly focus on the JIRA and ALM plugins on the basis of this platform.
+JIRA is an issue and project tracking solution used by dev team. While ALM is an application management solution during the app’s lifetime used by QA team to do test and send deflects to developers. 
+Both of these two different systems are in common use in our work. But we have some problems when using these two tools.
+
+First of all, their query method cannot meet all our requirements. JIRA has its own query language called JQL. But it can not meet all our requirements, for example, it cannot extract issues who have subtasks from a bunch of candidates, which is needed by our colleagues. Let alone ALM’s query method is not user friendly and totally different from JQL. 
+But in FinCLI, we make the uniform query language close to natural language. When you’re using JIRA plugin, you can easily describe what you want in one command line, like shown in this slide. And when switching to ALM, same logic, same grammar, great output as expected.
+
+And the second problem is that we could not customize the output according to our demands. But FinCLI can let the users customize their demands through the configuration file. 
+We can customize the editor we’d like to output to, the fields we want to show and even the email address we want to send the result to.
+So a single command can send the result to you or even your boss. 
+
+The third problem is that as mentioned before, JIRA and ALM are two independent systems. If QA team report a defect and we want to create a corresponding JIRA, normally we need to copy the corresponding fields from one to the other manually. Not mentioned some corresponding fields have names. Again, we’ve done the “couple” work for the users, a single command, work done.
+
+That’s all. Thank you.
